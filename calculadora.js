@@ -1,5 +1,5 @@
 //clear function (hasta el momento tirando erores)
-document.querySelector("clear").addEventListener("click", ()=>{
+document.querySelector("#clear").addEventListener("click", ()=>{
  document.querySelector("#display").value = " ";   
 } )
 
@@ -85,7 +85,7 @@ const eight = () =>{
         document.querySelector("#display").value = "8";
     }
     else{
-        document.querySelector("#display").value = document.querySelector("#display").value + "9";
+        document.querySelector("#display").value = document.querySelector("#display").value + "8";
     }
 }
 
